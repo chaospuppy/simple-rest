@@ -10,7 +10,7 @@ var accounts = [
 
 /* GET accounts listing. */
 router.get('/', function(req, res) {
-  res.send(`${accounts}`);
+  res.send(accounts);
 });
 
 /* GET account. */
